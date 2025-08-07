@@ -1,0 +1,188 @@
+/*=============================================
+GLOBAL
+=============================================*/
+
+*{
+	font-family: 'Roboto', sans-serif;
+	font-weight:900;
+	
+}
+a, h1, h2, h3, h4, h5, h6, button, select, option, .input-group, input, .input-group-text, textarea, .nav-link{
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+ul, ol{
+	list-style: none;
+}
+
+a:visited, a:link, a:focus, a:hover, a:active{
+	list-style: none;
+	text-decoration: none;
+}
+
+.dropdown-menu{
+	min-width:0% !important;
+	padding:0 !important;
+	font-size:12px !important;
+}
+
+.dropdown-item{
+	padding:8px 18px !important;
+	color:black !important;
+	font-weight:500 !important;
+
+}
+/*=============================================
+HEADER
+=============================================*/
+
+header{
+	position: fixed;
+	z-index: 2;
+	width:100%;
+	top:0;
+	left:0;
+	background:rgba(0,0,0,.1);
+}
+.botonera li{
+	cursor:pointer;
+}
+
+.botonera li:hover{
+	border-bottom:3px solid white;
+}
+
+ .menuMovil{
+ 	display:none;
+ }
+
+
+/*=============================================
+TABLET HORIZONTAL (LG revisamos en 1024px)
+=============================================*/
+
+@media (width<=1199px) and (width>=992px){
+
+	header .ingresos button{
+	 	margin-top:-33px;
+	 	padding-bottom:0px;
+	}
+
+	header .ingresos button a{
+	 	font-size:10px;
+	}
+
+
+}
+/*=============================================
+TABLET VERTICAL (MD revisamos en 768px)
+=============================================*/
+
+@media (width<=991px) and (width>=768px){
+
+ 	header .ingresos button{
+	 	margin-top:-5px;
+	 	padding-bottom:0px;
+ 	}
+
+
+ 	header .ingresos button a{
+	 	font-size:18px;
+	 	padding-bottom:5px;
+ 	}
+	header i .fa-bars{
+		justify-content: center;
+	}
+	.menuMovil{	
+	 	position:fixed;
+	 	top:0;
+	 	left:0;
+	 	width:100%;
+	 	height:100%;
+	 	background:black;
+	 	z-index:2;
+	}
+	.menuMovil .nav-item{
+	  	background-color: #5D7179;
+	  	border-bottom:1px solid black;
+	}
+	.menuMovil .nav-item a{
+		font-weight: 100;
+		font-size:20px;
+	}
+}
+/*=============================================
+MÓVIL HORIZONTAL (SM revisamos en 576px)
+=============================================*/
+
+@media (width<=767px) and (width>=576px){
+
+	header .ingresos button{
+	 	margin-top:-10px;
+	 	padding-bottom:0px;
+	 }
+
+
+	 header .ingresos button a{
+	 	font-size:14px;
+	 	padding-bottom:5px;
+	 }
+
+	 .menuMovil{		
+	 	position:fixed;
+	 	top:0;
+	 	left:0;
+	 	width:100%;
+	 	height:100%;
+	 	background:black;
+	 	z-index:2;
+	 }
+
+	.menuMovil .nav-item{
+	  	background-color: #5D7179;
+	  	border-bottom:1px solid black;
+	}
+
+	.menuMovil .nav-item a{
+		font-weight: 100;
+		font-size:20px;
+
+	}
+}
+/*=============================================
+MOVIL VERTICAL (revisamos en 320px)
+=============================================*/
+
+@media (width<=575px){
+
+	header .ingresos button{
+	 	margin-top:-10px;
+	 	padding-bottom:0px;
+	 }
+
+
+	 header .ingresos button a{
+	 	font-size:12px;
+	 }
+
+	 .menuMovil{		
+	 	position:fixed;
+	 	top:0;
+	 	left:0;
+	 	width:100%;
+	 	height:100%;
+	 	background:black;
+	 	z-index:2;
+	 }
+
+	.menuMovil .nav-item{
+	  	background-color: #5D7179;
+	  	border-bottom:1px solid black;
+	}
+
+	.menuMovil .nav-item a{
+		font-weight: 100;
+		font-size:20px;
+
+	}
+}

@@ -1,105 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="shortcut icon" href="img/icono.png" type="image/x-icon">
+	<!--=====================================
+	VÍNCULOS CSS
+	======================================-->
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+	<!-- Fuente Open Sans -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed|Roboto:100|Grand+Hotel" rel="stylesheet">
+
+	<!-- Hoja Estilo Personalizada -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<!--=====================================
+	VÍNCULOS JAVASCRIPT
+	======================================-->
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+
+	<!-- https://easings.net/es# -->
+	<script src="js/plugins/jquery.easing.js"></script>
+
+	<!-- https://markgoodyear.com/labs/scrollup/ -->
+	<script src="js/plugins/scrollUP.js"></script>
+
+	<!-- https://www.jqueryscript.net/loading/Handle-Loading-Progress-jQuery-Nite-Preloader.html -->
+	<script src="js/plugins/jquery.nite.preloader.js"></script>
+	
 </head>
 <body>
 <!--=====================================
-CABECERA
+HEADER
 ======================================-->
 
-<header class="container-fluid">
-	
-	<div class="container p-0">
+<header>
+
+	<div class="container-fluid">
 		
-		<div class="row">
+		<div class="container p-0">
+
+			<div class="row">
+
+				<!-- LOGO -->
 			
-			<!-- LOGO -->
-			<div class="col-10 col-sm-11 col-md-8 col-lg-7 pt-1 pt-lg-3 p-xl-0">
-				
-				<a href="index.html">
+				<div class="col-7 col-sm-5 col-md-4 col-lg-2 col-xl-3 my-3 d-flex mt-lg-3 logotipo">
+
+					<i class="fas fa-bars d-block d-lg-none text-white pt-2 pr-2"></i>
 					
-					<img src="img/logotipo-negativo.png" alt="Logo de Juanito Travel" class="img-fluid logotipo">
+					<a href="index.html">
+						<img src="img/logo.png" class="img-fluid pt-1">
+					</a>
 
-				</a>
+				</div>
 
-			</div>
+				<!-- BOTONERA -->
 
-			<!-- REDES SOCIALES -->
-			<div class="d-none d-md-block col-md-2 col-lg-2 redes">
-				
-				<ul class="d-flex justify-content-end pt-2 mt-1">
+				<div class="d-none d-lg-block col-lg-8 col-xl-6 p-0 pt-lg-2 mt-lg-1 pt-xl-4 botonera">
 					
-					<li>
-						<a href="https://www.facebook.com" target="_blank">
-							<i class="fab fa-facebook-f lead rounded-circle text-white mr-1"></i>
-						</a>
-					</li>
+					<ul class="nav justify-content-lg-left justify-content-xl-end">
+						
+						<li class="nav-item">
+							<a class="nav-link text-white" href="#cursos">Cursos</a>
+						</li>
 
-					<li>
-						<a href="#" target="_blank">
-							<i class="fab fa-instagram lead rounded-circle text-white mr-1"></i>
-						</a>
-					</li>
+						<li class="nav-item">
+							<a class="nav-link text-white" href="#nosotros">Nosotros</a>
+						</li>
 
-					<li>
-						<a href="#" target="_blank">
-							<i class="fab fa-twitter lead rounded-circle text-white mr-1"></i>
-						</a>
-					</li>
+						<li class="nav-item">
+							<a class="nav-link text-white" href="#testimonios">Testimonios</a>
+						</li>
 
-					<li>
-						<a href="#" target="_blank">
-							<i class="fab fa-youtube lead rounded-circle text-white mr-1"></i>
-						</a>
-					</li>
+						<li class="nav-item">
+							<a class="nav-link text-white" href="#planes">Planes</a>
+						</li>
 
-					<li>
-						<a href="#" target="_blank">
-							<i class="fab fa-snapchat-ghost lead rounded-circle text-white mr-1"></i>
-						</a>
-					</li>
+						<li class="nav-item">
+							<a class="nav-link text-white" href="#faq">FAQ</a>
+						</li>
 
-				</ul>
+						<li class="nav-item">
+							<a class="nav-link text-white" href="#">Blog</a>
+						</li>
 
-			</div>
+						<li class="nav-item">
+							<a class="nav-link text-white" href="#contactenos">Contáctenos</a>
+						</li>
 
-			<!-- BUSCADOR Y BOTÓN MENÚ -->
-			<div class="col-2 col-sm-1 col-md-2 col-lg-2 d-flex justify-content-end pt-2 mt-1">
-				
-				<!-- BUSCADOR -->
-				<div class="d-none d-md-block pr-4 pr-lg-5 mt-1">
-					<i class="fas fa-search lead" data-toggle="collapse" data-target="#buscador"></i>
+					</ul>
+
 				</div>	
 
-				<!-- BOTÓN MENÚ -->
-				<div class="m-0 mt-sm-1 mt-md-0 pr-0 pr-sm-2 pr-lg-3">
-					<i class="fas fa-bars lead"></i>
-				</div>
-				
-			</div>
+				<!-- IDIOMA E INGRESO -->
 
-			<!-- ENTRADA DEL BUSCADOR -->
+				<div class="col-5 col-sm-7 col-md-8 col-lg-2 col-xl-3 p-0 pt-4 pt-lg-2 mt-lg-1 pt-xl-4">
 
-			<div id="buscador" class="collapse col-12">
-				
-				<div class="input-group float-right w-50 pl-xl-5 pb-3">
+					<!-- IDIOMA -->
 					
-					<input type="text" class="form-control" placeholder="Buscar">
+					<div class="ml-xl-4 float-left mt-lg-1 d-none d-lg-block">
 
-					<div class="input-group-append">
-						
-						<span class="input-group-text">
-							
-							<i class="fas fa-search"></i>
+						<div class="dropdown">
 
-						</span>
+							<button type="button" class="btn btn-light btn-sm dropdown-toggle" data-toggle="dropdown">
+							ES
+							</button>
+
+							<div class="dropdown-menu">
+
+								<a class="dropdown-item" href="#">EN</a>
+
+							</div>
+
+						</div>
 
 					</div>
 
-				</div>
+					<!-- INGRESO -->
+
+					<div class="mr-2 mr-lg-0 float-right pt-1 ingresos">
+						
+						<button class="btn btn-info btn-sm d-flex">
+							
+							<a href="ingreso.html" class="text-white">Ingresar</a>
+
+							<span class="text-white mx-2">|</span>
+
+							<a href="registro.html" class="text-white">Crear Cuenta</a>
+
+						</button>
+
+					</div>
+
+				</div>	
 
 			</div>
 
@@ -108,6 +156,95 @@ CABECERA
 	</div>
 
 </header>
+<!--=====================================
+MENÚ MÓVIL
+======================================-->
 
+<div class="menuMovil">
+	
+	<ul class="p-0 m-0 py-4 d-flex justify-content-center">	
+		
+		<li>
+			<i class="fas fa-times lead text-white mr-5"></i>
+		</li>
+
+		<li>
+			<a href="#" target="_blank"><i class="fab fa-facebook-f lead text-white ml-5 mx-2"></i></a>
+		</li>
+
+		<li>
+			<a href="#" target="_blank"><i class="fab fa-instagram lead text-white mx-2"></i></a>
+		</li>	
+		
+		<li>
+			<a href="#" target="_blank"><i class="fab fa-linkedin lead text-white mx-2"></i></a>
+		</li>
+
+		<li>
+			<a href="#" target="_blank"><i class="fab fa-twitter lead text-white mx-2"></i></a>
+		</li>
+
+		<li>
+			<a href="#" target="_blank"><i class="fab fa-youtube lead text-white mx-2"></i></a>
+		</li>
+
+	</ul>
+
+	<div class="text-center">
+
+		<div class="dropdown">
+
+			<button type="button" class="btn btn-light btn-sm dropdown-toggle" data-toggle="dropdown">
+			ES
+			</button>
+
+			<div class="dropdown-menu">
+
+				<a class="dropdown-item " href="#">EN</a>
+
+			</div>
+
+		</div>
+
+	</div>
+
+	<ul class="nav flex-column text-center mt-3">
+						
+		<li class="nav-item py-3">
+			<a class="nav-link text-white" href="#cursos">Cursos</a>
+		</li>
+
+		<li class="nav-item py-3">
+			<a class="nav-link text-white" href="#nosotros">Nosotros</a>
+		</li>
+
+		<li class="nav-item py-3">
+			<a class="nav-link text-white" href="#testimonios">Testimonios</a>
+		</li>
+
+		<li class="nav-item py-3">
+			<a class="nav-link text-white" href="#planes">Planes</a>
+		</li>
+
+		<li class="nav-item py-3">
+			<a class="nav-link text-white" href="#faq">FAQ</a>
+		</li>
+
+		<li class="nav-item py-3">
+			<a class="nav-link text-white" href="#">Blog</a>
+		</li>
+
+		<li class="nav-item py-3">
+			<a class="nav-link text-white" href="#contactenos">Contáctenos</a>
+		</li>
+
+	</ul>
+
+</div>
+
+
+
+
+	<script src="js/script.js"></script>
 </body>
 </html>
