@@ -42,7 +42,7 @@ header{
 	width:100%;
 	top:0;
 	left:0;
-	background:rgba(0,0,0,.1);
+	background:rgba(3, 0, 29, 0.925);
 }
 .botonera li{
 	cursor:pointer;
@@ -55,7 +55,58 @@ header{
  .menuMovil{
  	display:none;
  }
+header .idiomas span{
+	cursor:pointer;
+}
 
+header .redes{
+	margin-top: -50px;
+	width: 212px;
+}
+.redes ul li i{
+	width:35px;
+	line-height: 35px;
+	text-align:center;
+	cursor:pointer;
+}
+
+.redes ul li i.fa-facebook-f{
+	background: #1475E0;
+}
+
+.redes ul li i.fa-instagram{
+	background: #B18768;
+}
+
+
+.redes ul li i.fa-twitter{
+	background: #00A6FF;
+}
+
+
+.redes ul li i.fa-youtube{
+	background: #F95F62;
+}
+
+
+.redes ul li i.fa-snapchat-ghost{
+	background: #FF9052;
+}
+
+/*=============================================
+FOOTER
+=============================================*/
+
+footer .grid-container{
+	display:grid;
+	grid-template-columns: 2fr 4fr 2fr;
+}
+
+footer .grid-item{
+	background-color: #197DB1;
+	text-align:center;
+	color:white;
+}
 
 /*=============================================
 TABLET HORIZONTAL (LG revisamos en 1024px)
@@ -63,14 +114,19 @@ TABLET HORIZONTAL (LG revisamos en 1024px)
 
 @media (width<=1199px) and (width>=992px){
 
-	header .ingresos button{
-	 	margin-top:-33px;
-	 	padding-bottom:0px;
+	header .botonera{
+		float: left;
+		margin-left: 0px;
+		border-left: 0;
 	}
+	 header .idiomas{
+		margin-left: -87px;
 
-	header .ingresos button a{
-	 	font-size:10px;
-	}
+	 }
+	 header .redes{
+		margin-top: -11px;
+		width: 190px;
+	 }
 
 
 }
@@ -80,16 +136,16 @@ TABLET VERTICAL (MD revisamos en 768px)
 
 @media (width<=991px) and (width>=768px){
 
- 	header .ingresos button{
-	 	margin-top:-5px;
-	 	padding-bottom:0px;
- 	}
-
-
- 	header .ingresos button a{
-	 	font-size:18px;
-	 	padding-bottom:5px;
- 	}
+ 	header .idionaRedes{
+		display: flex;
+		justify-content: center;
+		align-items: center;	
+		margin-bottom: -30px; 
+	}	 
+	header .idiomas{
+		 margin-bottom: 45px;
+	}
+	 
 	header i .fa-bars{
 		justify-content: center;
 	}
@@ -110,6 +166,14 @@ TABLET VERTICAL (MD revisamos en 768px)
 		font-weight: 100;
 		font-size:20px;
 	}
+
+	footer .grid-container {
+		 grid-template-columns: 1fr;
+	}
+	footer .grid-item ul {
+		display: flex;
+		justify-content: center;
+	}
 }
 /*=============================================
 MÓVIL HORIZONTAL (SM revisamos en 576px)
@@ -117,17 +181,17 @@ MÓVIL HORIZONTAL (SM revisamos en 576px)
 
 @media (width<=767px) and (width>=576px){
 
-	header .ingresos button{
-	 	margin-top:-10px;
-	 	padding-bottom:0px;
-	 }
-
-
-	 header .ingresos button a{
-	 	font-size:14px;
-	 	padding-bottom:5px;
-	 }
-
+	header .logotipo{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	header .idionaRedes{
+		display: flex;
+		justify-content: center;
+		align-items: center;	
+		margin-bottom: 28px; 
+	}
 	 .menuMovil{		
 	 	position:fixed;
 	 	top:0;
@@ -147,6 +211,17 @@ MÓVIL HORIZONTAL (SM revisamos en 576px)
 		font-weight: 100;
 		font-size:20px;
 
+	}
+
+	footer .grid-container {
+		 grid-template-columns: 1fr;
+		 
+	}
+	footer .grid-item ul {
+		display: flex;
+		justify-content: center;
+		padding-left: 0;
+		padding-right: 0
 	}
 }
 /*=============================================
@@ -155,16 +230,16 @@ MOVIL VERTICAL (revisamos en 320px)
 
 @media (width<=575px){
 
-	header .ingresos button{
-	 	margin-top:-10px;
-	 	padding-bottom:0px;
-	 }
-
-
-	 header .ingresos button a{
-	 	font-size:12px;
-	 }
-
+	header .logotipo{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding-top: 0%;
+	}
+	header .idiomas{
+		padding-bottom: 15px;
+		margin-left: 20px;
+	}
 	 .menuMovil{		
 	 	position:fixed;
 	 	top:0;
@@ -184,5 +259,15 @@ MOVIL VERTICAL (revisamos en 320px)
 		font-weight: 100;
 		font-size:20px;
 
+	}
+	footer .grid-container {
+		 grid-template-columns: 1fr;
+		 
+	}
+	footer .grid-item ul {
+		display: flex;
+		justify-content: center;
+		padding-left: 0;
+		padding-right: 0
 	}
 }
