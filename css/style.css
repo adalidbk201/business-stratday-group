@@ -135,6 +135,57 @@ DISEÑO HERO - CINEMAGRAPH
 	text-align: center;
 	font-size:40px;
 }
+
+/*=============================================
+NOSOTROS
+=============================================*/
+.nosotros{
+	background: #f7f8f8;
+}
+
+.nosotros i{
+	width:140px;
+	line-height:140px;
+	font-size:50px;
+}
+
+.nosotros i.fa-users{
+	background: #5d7179;
+}
+
+.nosotros i.fa-graduation-cap{
+	background: #a17a8c;
+}
+
+.nosotros i.fa-laptop{
+	background: #c1aa92;
+}
+
+.nosotros i.fa-check{
+	background: #a1b287;
+}
+/*=============================================
+MAPA
+=============================================*/
+
+.mapa{
+	position:relative;
+}
+
+.mapa .info{
+	color: #8B7556;
+	position:absolute;
+	width:400px;
+	right:10%; 
+	top:10%; 
+	background-color: #FFCC29;
+	height:370px;
+}
+
+.mapa .info h3{
+
+	font-weight: bold;
+}
 /*=============================================
 FOOTER
 =============================================*/
@@ -251,7 +302,15 @@ TABLET VERTICAL (MD revisamos en 768px)
 		content: "";
 	}
 
-
+	.mapa .info{
+		position:absolute;
+		width:90%;
+		left:50%; 
+		top:100px; 
+		transform: translate(-50%, 0%);
+		background-color: #FFCC29;
+		height:350px;
+	}
 	footer .grid-container {
 		 grid-template-columns: 1fr;
 	}
@@ -322,6 +381,15 @@ MÓVIL HORIZONTAL (SM revisamos en 576px)
 		content: "";
 	}
 
+	.mapa .info{
+		position:absolute;
+		width:90%;
+		left:50%; 
+		top:100px; 
+		transform: translate(-50%, 0%);
+		background-color: #FFCC29;
+		height:350px;
+	}
 
 	footer .grid-container {
 		 grid-template-columns: 1fr;
@@ -398,6 +466,15 @@ MOVIL VERTICAL (revisamos en 320px)
 		content: "";
 	}
 
+	.mapa .info{
+		position:absolute;
+		width:90%;
+		left:50%; 
+		top:100px; 
+		transform: translate(-50%, 0%);
+		background-color: #FFCC29;
+		height:350px;
+	}
 
 	footer .grid-container {
 		 grid-template-columns: 1fr;

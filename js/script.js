@@ -71,3 +71,45 @@ $(".idiomaEs").click(function(){
 
 
 })
+
+
+/*=============================================
+DESPLAZAMIENTO MENÚ
+=============================================*/
+
+if(window.matchMedia("(max-width:768px)").matches){
+
+	$(".menuMovil ul li a").click(function(e){
+
+		$(".menuMovil").slideToggle('fast');
+
+		e.preventDefault();
+
+		var vinculo = $(this).attr("href");
+
+		$("html, body").animate({
+
+			scrollTop: $(vinculo).offset().top - 60
+
+		}, 2000, "easeOutQuint")
+
+	})
+
+
+}else{
+
+	$(".botonera ul li a").click(function(e){
+
+		e.preventDefault();
+
+		var vinculo = $(this).attr("href");
+
+		$("html, body").animate({
+
+			scrollTop: $(vinculo).offset().top - 60
+
+		}, 2000, "easeOutQuint")
+
+	})
+
+}
