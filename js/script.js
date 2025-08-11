@@ -13,7 +13,7 @@ $(window).scroll(function(){
 
 	}else{
 
-		$("header").css({"background":"rgba(0,0,0,.1)", "transition":".3s all"})
+		$("header").css({"background":"rgba(0,0,0,.6)", "transition":".3s all"})
 
 	}
 
