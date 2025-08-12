@@ -202,6 +202,13 @@ footer .grid-item{
 	color:white;
 }
 
+
+footer ul li a img{
+	width: 35px;
+	border-radius: 50%;
+	margin: 0 5px;
+}
+
 /*=============================================
 TABLET HORIZONTAL (LG revisamos en 1024px)
 =============================================*/
@@ -271,6 +278,11 @@ TABLET VERTICAL (MD revisamos en 768px)
 	 	background:black;
 	 	z-index:2;
 	}
+	.menuMovil ul li img{
+		width: 35px;
+		border-radius: 50%;
+		margin: 0 5px;
+	}
 	.menuMovil .nav-item{
 	  	background-color: #5D7179;
 	  	border-bottom:1px solid black;
@@ -312,6 +324,7 @@ TABLET VERTICAL (MD revisamos en 768px)
 		background-color: #FFCC29;
 		height:350px;
 	}
+	 
 	footer .grid-container {
 		 grid-template-columns: 1fr;
 	}
@@ -346,7 +359,11 @@ MÓVIL HORIZONTAL (SM revisamos en 576px)
 	 	background:black;
 	 	z-index:2;
 	 }
-
+	 .menuMovil ul li img{
+		width: 35px;
+		border-radius: 50%;
+		margin: 0 5px;
+	}
 	.menuMovil .nav-item{
 	  	background-color: #5D7179;
 	  	border-bottom:1px solid black;
@@ -428,7 +445,11 @@ MOVIL VERTICAL (revisamos en 320px)
 	 	background:black;
 	 	z-index:2;
 	 }
-
+	 .menuMovil ul li img{
+		width: 35px;
+		border-radius: 50%;
+		margin: 0 5px;
+	}
 	.menuMovil .nav-item{
 	  	background-color: #5D7179;
 	  	border-bottom:1px solid black;
@@ -466,7 +487,9 @@ MOVIL VERTICAL (revisamos en 320px)
 		background:rgba(0,0,0,.5);
 		content: "";
 	}
-
+	.mapa{
+		margin-bottom: 85px;
+	}
 	.mapa .info{
 		position:absolute;
 		width:90%;
@@ -477,6 +500,11 @@ MOVIL VERTICAL (revisamos en 320px)
 		height:350px;
 	}
 
+	footer {
+		position: fixed;
+		bottom:0px;
+		z-index:2;
+	}
 	footer .grid-container {
 		 grid-template-columns: 1fr;
 		 
