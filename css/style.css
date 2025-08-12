@@ -42,7 +42,7 @@ header{
 	width:100%;
 	top:0;
 	left:0;
-	background:rgba(0,0,0,.6);
+	background:rgba(0,0,0,.2);
 }
 .botonera li{
 	cursor:pointer;
@@ -79,8 +79,8 @@ header .redes{
 }
 
 
-.redes ul li i.fa-twitter{
-	background: #00A6FF;
+.redes ul li i.fa-whatsapp{
+	background: #00C307;
 }
 
 
@@ -89,8 +89,9 @@ header .redes{
 }
 
 
-.redes ul li i.fa-snapchat-ghost{
-	background: #FF9052;
+.redes ul li  .img-tiktok{
+	width: 35px;
+	border-radius: 50%;
 }
  /*=============================================
 DISEÑO HERO - CINEMAGRAPH
@@ -102,7 +103,7 @@ DISEÑO HERO - CINEMAGRAPH
 	overflow:hidden;
 }
 
-.filtroVideo{
+/* .filtroVideo{
 	position:absolute;
 	width:100%;
 	height:inherit;
@@ -110,7 +111,7 @@ DISEÑO HERO - CINEMAGRAPH
 	left:0;
 	background: url(../img/filtro.png);
 	background-repeat: repeat;
-}
+} */
 
 .vistaVideo .container{
 	transform:translate(0, -120%);
@@ -196,7 +197,7 @@ footer .grid-container{
 }
 
 footer .grid-item{
-	background-color: #197DB1;
+	background:#043248;
 	text-align:center;
 	color:white;
 }
