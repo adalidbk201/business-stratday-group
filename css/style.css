@@ -32,6 +32,9 @@ a:visited, a:link, a:focus, a:hover, a:active{
 	font-weight:500 !important;
 
 }
+body{
+	background-color: #343A40;
+}
 /*=============================================
 HEADER
 =============================================*/
@@ -139,11 +142,19 @@ DISEÑO HERO - CINEMAGRAPH
 /*=============================================
 NUESTRA EMPRESA
 =============================================*/
+.nuestra-empresa{
+	color: white;
+}
+.nuestra-empresa .container .row h4{
+	color: black;
+}
 .nuestra-empresa .container .row div{
 	position: relative;
+	
 }
 
 .nuestra-empresa .container i{
+	
 	position:absolute;
 	top:50%;
 	left:50%;
@@ -158,7 +169,7 @@ NUESTRA EMPRESA
 NOSOTROS
 =============================================*/
 .nosotros{
-	background: #161736;
+	/* background: #363877; */
 	color: white;
 }
 
@@ -188,6 +199,14 @@ NOSOTROS
 
 .nosotros i.fa-check{
 	background: #a1b287;
+}
+/*=============================================
+SERVICIOS
+=============================================*/
+
+.servicios .container{
+	background: #5d7179;
+	color: white;
 }
 /*=============================================
 MAPA
