@@ -136,6 +136,23 @@ DISEÑO HERO - CINEMAGRAPH
 	text-align: center;
 	font-size:40px;
 }
+/*=============================================
+NUESTRA EMPRESA
+=============================================*/
+.nuestra-empresa .container .row div{
+	position: relative;
+}
+
+.nuestra-empresa .container i{
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%, 50%);
+	width:80px;
+	line-height: 80px;
+	text-align: center;
+	font-size:40px;
+}
 
 /*=============================================
 NOSOTROS
@@ -241,7 +258,7 @@ TABLET HORIZONTAL (LG revisamos en 1024px)
 		height:70vh;
 	}
 
-	.vistaVideo .container{
+	/* .vistaVideo .container{
 		transform:translate(0,-95%);
 	}
 
@@ -254,7 +271,7 @@ TABLET HORIZONTAL (LG revisamos en 1024px)
 		left:0;
 		background: url(../img/filtro.png);
 		background-repeat: repeat;
-	}
+	} */
 
 }
 /*=============================================
@@ -300,10 +317,10 @@ TABLET VERTICAL (MD revisamos en 768px)
 	}
 
 	.vistaVideo{
-		height:90vh;
+		height:320px;
 	}
 
-	.vistaVideo .container{
+	/* .vistaVideo .container{
 		transform:translate(0, 8%);
 	}
 
@@ -320,7 +337,7 @@ TABLET VERTICAL (MD revisamos en 768px)
 		height:100%;
 		background:rgba(0,0,0,.5);
 		content: "";
-	}
+	} */
 
 	.mapa .info{
 		position:absolute;
@@ -468,11 +485,11 @@ MOVIL VERTICAL (revisamos en 320px)
 
 	}
 
-	.vistaVideo{
-		height:920px;
+	 .vistaVideo{
+		height:200px;
 	}
-
-	.vistaVideo .container{
+	
+	/* .vistaVideo .container{
 		transform:translate(0, 8%);
 	}
 
@@ -493,7 +510,7 @@ MOVIL VERTICAL (revisamos en 320px)
 		height:100%;
 		background:rgba(0,0,0,.5);
 		content: "";
-	}
+	} */
 	.mapa{
 		margin-bottom: 85px;
 	}
