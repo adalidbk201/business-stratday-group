@@ -141,13 +141,20 @@ DISEÑO HERO - CINEMAGRAPH
 NOSOTROS
 =============================================*/
 .nosotros{
-	background: #f7f8f8;
+	background: #161736;
+	color: white;
 }
 
 .nosotros i{
 	width:140px;
 	line-height:140px;
 	font-size:50px;
+}
+.nosotros img{
+	width:140px;
+	line-height:140px;
+	font-size:50px;
+	border-radius: 50%;
 }
 
 .nosotros i.fa-users{
