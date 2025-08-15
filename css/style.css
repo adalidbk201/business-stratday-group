@@ -172,6 +172,9 @@ NOSOTROS
 	/* background: #363877; */
 	color: white;
 }
+.nosotros .nosotros-01{
+	border: white 3px solid;
+}
 
 .nosotros i{
 	width:140px;
