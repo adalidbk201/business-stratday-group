@@ -207,10 +207,44 @@ NOSOTROS
 SERVICIOS
 =============================================*/
 
-.servicios .container{
-	background: #5d7179;
-	color: white;
+.servicios .row div[class*="col"] figure{
+	position:relative;
+	overflow: hidden;
 }
+
+.servicios .row div[class*="col"] figure img{
+	transform: scale(1, 1);
+	transition: 1s all;
+}
+
+.servicios .row div[class*="col"] figure img:hover{
+	transform: scale(1.1, 1.1);
+	transition: 1s all;
+}
+
+.servicios .row div[class*="col"] figure h1{
+	position:absolute;
+	top:45%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	transition:.3s all;
+}
+
+.servicios .row div[class*="col"] figure h1:hover{
+	filter: invert(100%);
+	transition:.3s all;
+}
+
+.servicios .row div[class*="col"] figure p{
+	background:black; 
+	color:#aaa;
+	padding-left:0;
+	padding-right:0;
+	font-size: 15px;
+	font-weight: 800;
+}
+
+
 /*=============================================
 MAPA
 =============================================*/
