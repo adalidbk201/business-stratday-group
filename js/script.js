@@ -113,3 +113,26 @@ if(window.matchMedia("(max-width:768px)").matches){
 	})
 
 }
+/*=============================================
+GRID GALERIA
+=============================================*/
+
+$(".grid figure, .gridFooter figure").mouseover(function(){
+
+	$(this).css({"background-position":"right bottom"})
+
+})
+
+$(".grid figure, .gridFooter figure").mouseout(function(){
+
+	$(this).css({"background-position":"left top"})
+
+})
+
+$(".grid figure, .gridFooter figure").click(function(){
+
+	var vinculo = $(this).attr("vinculo");
+
+	window.location = vinculo;
+
+})
