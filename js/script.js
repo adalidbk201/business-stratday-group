@@ -136,3 +136,4 @@ $(".grid figure, .gridFooter figure").click(function(){
 	window.location = vinculo;
 
 })
+
