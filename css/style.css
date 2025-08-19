@@ -267,42 +267,42 @@ GRID GALERIA
 
 .grid .photo1{
 	height:400px;
-	background:url(../img/suramerica.jpg);
+	background:url(../img/imagen1.jpeg);
 	background-size:cover;
 	background-position:left;
 }
 
 .grid .photo2{
 	height:300px;
-	background:url(../img/africa.jpg);
+	background:url(../img/imagen2.jpeg);
 	background-size:cover;
 	background-position:left;
 }
 
 .grid .photo3{
 	height:300px;
-	background:url(../img/centroamerica.jpg);
+	background:url(../img/imagen3.jpeg);
 	background-size:cover;
 	background-position:left;
 }
 
 .grid .photo4{
 	height:300px;
-	background:url(../img/europa.jpg);
+	background:url(../img/imagen4.jpeg);
 	background-size:cover;
 	background-position:left;
 }
 
 .grid .photo5{
 	height:400px;
-	background:url(../img/norteamerica.jpg);
+	background:url(../img/imagen5.jpeg);
 	background-size:cover;
 	background-position:left;
 }
 
 .grid .photo6{
 	height:200px;
-	background:url(../img/asia.jpg);
+	background:url(../img/imagen6.jpeg);
 	background-size:cover;
 	background-position:left;
 }
