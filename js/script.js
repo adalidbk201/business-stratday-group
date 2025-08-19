@@ -129,11 +129,11 @@ $(".grid figure, .gridFooter figure").mouseout(function(){
 
 })
 
-$(".grid figure, .gridFooter figure").click(function(){
+// $(".grid figure, .gridFooter figure").click(function(){
 
-	var vinculo = $(this).attr("vinculo");
+// 	var vinculo = $(this).attr("vinculo");
 
-	window.location = vinculo;
+// 	window.location = vinculo;
 
-})
+// })
 
