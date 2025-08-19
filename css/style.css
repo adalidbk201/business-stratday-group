@@ -237,11 +237,14 @@ SERVICIOS
 
 .servicios .row div[class*="col"] figure p{
 	background:black; 
-	color:#aaa;
+	color:white;
 	padding-left:0;
 	padding-right:0;
-	font-size: 15px;
-	font-weight: 800;
+	font-size: 20px;
+	font-weight:900;
+}
+.servicios .row div[class*="col"] figure h1{
+	cursor: pointer;
 }
 
 /*=============================================
@@ -363,7 +366,21 @@ footer ul li a img{
 	border-radius: 50%;
 	margin: 0 5px;
 }
-
+/*=============================================
+MODAL SERVICIOS 
+=============================================*/
+.modalservicio .modal-content{
+	background-color: rgb(10, 12, 35);
+	color: white;
+}
+.modalservicio  h2{
+	border-bottom: black 1px solid;
+	
+}
+.modalservicio .modal-content img{
+	border-radius: 50%;
+}
+	
 /*=============================================
 TABLET HORIZONTAL (LG revisamos en 1024px)
 =============================================*/
