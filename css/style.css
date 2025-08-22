@@ -274,10 +274,27 @@ NOSOTROS 1
 SERVICIOS
 =============================================*/
 /* Service grid */
+.service-grid ul li{
+	list-style:inside;
+	cursor: pointer;
+}
+.service-grid ul li strong{
+	font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji";
+}
+
 .service-grid { 
 	display:grid; 
 	gap: 18px; 
 	grid-template-columns: 1fr 1fr 1fr; 
+}
+.service h3 { 
+	font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji";
+	margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
 }
 .service { 
 	border:1px solid rgba(148,163,184,.16); 
@@ -316,6 +333,11 @@ GRID GALERIA
 =============================================*/
 .galeria{
 	background: rgba(12, 34, 48, .6);
+}
+.galeria .section-title {
+	font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji";
+	font-size: clamp(22px, 3.5vw, 32px); 
+	margin: 0 0 8px;
 }
 .grid figure{
 	position:relative;
@@ -426,9 +448,10 @@ preguntas frecuentes
 	padding-top: 20px;
 	/* padding-bottom: 20px; */
 }
-#faq .section-title { 
+#faq .section-title {
+	font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji";
 	font-size: clamp(22px, 3.5vw, 32px); 
-	margin: 0 0 8px; 
+	margin: 0 0 8px;
 }
 #faq .section-sub { 
 	color: #94a3b8; 
@@ -505,7 +528,7 @@ MAPA
 	width:400px;
 	right:10%; 
 	top:10%; 
-	background-color: #FFCC29;
+	background-color: #0B1A29;
 	height:370px;
 }
 
@@ -534,7 +557,12 @@ footer ul li a img{
 	border-radius: 50%;
 	margin: 0 5px;
 }
-	
+/*=============================================
+VENTANA MODAL
+=============================================*/
+	.modalservicio{
+		background: #050B1B;
+	}
 /*=============================================
 TABLET HORIZONTAL (LG revisamos en 1024px)
 =============================================*/
