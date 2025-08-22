@@ -2,22 +2,22 @@
 ANIMACIONES SCROLL HEADER
 =============================================*/
 
-$(window).scroll(function(){
+// $(window).scroll(function(){
 
-	var posY = window.pageYOffset;
+// 	var posY = window.pageYOffset;
 	
-	if(posY > 10){
+// 	if(posY > 10){
 
-		$("header").css({"background":"#043248", "transition":".3s all"})
+// 		$("header").css({"background":"#043248", "transition":".3s all"})
 
 
-	}else{
+// 	}else{
 
-		$("header").css({"background":"rgba(0,0,0,.6)", "transition":".3s all"})
+// 		$("header").css({"background":"rgba(0,0,0,.6)", "transition":".3s all"})
 
-	}
+// 	}
 
-})
+// })
 /*=============================================
 MENÚ MÓVIL
 =============================================*/
