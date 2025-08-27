@@ -34,9 +34,10 @@ a:visited, a:link, a:focus, a:hover, a:active{
 
 }
 body{
-	background: radial-gradient(1200px 600px at 80% -10%, rgba(34,211,238,.15), transparent 60%),
+	/* background: radial-gradient(1200px 600px at 80% -10%, rgba(34,211,238,.15), transparent 60%),
                   radial-gradient(1000px 500px at 10% 0%, rgba(96,165,250,.14), transparent 60%),
-                  #0b1220;
+                  #0b1220; */
+	background:#5DA3AE
 }
 /*=============================================
 HEADER
@@ -475,6 +476,14 @@ preguntas frecuentes
 #faq details p { 
 	margin: 10px 0 0; 
 	color:#cbd5e1; 
+}
+
+/*=============================================
+ORGANIGRAMA
+=============================================*/
+
+.organigrama{
+	width: 100%;
 }
 /*=============================================
 EQUIPO
