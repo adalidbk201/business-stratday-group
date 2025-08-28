@@ -162,8 +162,13 @@ INICIO
 .inicio p{
 	font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji";
 	font-size: clamp(16px, 2.5vw, 18px);
-	color: #94a3b8; 
+	color: #0F172A; 
 	margin: 0 0 22px; 
+}
+.inicio strong{
+	color: #0C1423;
+	font-size: 20px;
+	
 }
 .inicio .badges{
 	display:flex; 
@@ -174,7 +179,7 @@ INICIO
 	padding:6px 10px; 
 	border-radius:999px; 
 	border:1px solid rgba(148,163,184,.25); 
-	color:#cbd5e1; 
+	color:#0F172A; 
 	font-size:13px; 
 	background: rgba(2,8,23,.35); 
 }
@@ -191,7 +196,7 @@ INICIO
 	padding:8px 10px; 
 	border-radius:999px; 
 	border:1px solid rgba(148,163,184,.25); 
-	color:#cbd5e1; 
+	color:#0F172A; 
 	font-size:13px; 
 	background: rgba(2,8,23,.35); 
 }
@@ -237,9 +242,11 @@ NOSOTROS 1
 	font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji";
 	font-size: clamp(22px, 3.5vw, 32px); 
 	margin: 0 0 8px;
+	color: #0C1423;
 }
 .nosotros-1 .section-sub{
-	color:#94a3b8;
+	font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji";
+	color:#0C1423;
 	margin: 0 0 24px;
 }
 .nosotros-1 .card{
@@ -272,6 +279,14 @@ NOSOTROS 1
 SERVICIOS
 =============================================*/
 /* Service grid */
+#servicios .section-title{
+	font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji";
+	color:#0C1423;
+}
+#servicios .section-sub{
+	font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji";
+	color:#0C1423;
+}
 #servicios{
 	background: linear-gradient(to bottom, rgba(30,87,153,0) 0%,rgba(30,87,153,0.8) 15%,rgba(30,87,153,1) 19%,rgba(30,87,153,1) 20%,rgba(41,137,216,1) 50%,rgba(30,87,153,1) 80%,rgba(30,87,153,1) 81%,rgba(30,87,153,0.8) 85%,rgba(30,87,153,0) 100%);
 }
@@ -339,6 +354,7 @@ GRID GALERIA
 	font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji";
 	font-size: clamp(22px, 3.5vw, 32px); 
 	margin: 0 0 8px;
+	color:#0C1423;
 }
 .grid figure{
 	position:relative;
@@ -421,6 +437,11 @@ BLOG y noticias
 	font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji";
 	font-size: clamp(22px, 3.5vw, 32px); 
 	margin: 0 0 8px;
+	color: #0C1423;
+}
+#blog .section-sub{
+	font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji";
+	color: #0C1423;
 }
 #blog .cards { 
 	display:grid; 
@@ -454,9 +475,11 @@ preguntas frecuentes
 	font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji";
 	font-size: clamp(22px, 3.5vw, 32px); 
 	margin: 0 0 8px;
+	color: #0C1423;
 }
 #faq .section-sub { 
-	color: #94a3b8; 
+	font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji";
+	color: #0C1423; 
 	margin: 0 0 24px; 
 }
 #faq details { 
@@ -486,6 +509,7 @@ ORGANIGRAMA
 	background: linear-gradient(to bottom, rgba(30,87,153,0) 0%,rgba(30,87,153,0.8) 15%,rgba(30,87,153,1) 19%,rgba(30,87,153,1) 20%,rgba(41,137,216,1) 50%,rgba(30,87,153,1) 80%,rgba(30,87,153,1) 81%,rgba(30,87,153,0.8) 85%,rgba(30,87,153,0) 100%);
 }
 #organigrama h1 {
+	font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji";
       text-align: center;
       color: #1a2a5e;
       margin-bottom: 40px;
@@ -524,6 +548,7 @@ ORGANIGRAMA
 
 #organigrama    .card h3 {
       margin: 0;
+	  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji";
       color: #1a2a5e;
       font-size: 16px;
     }
@@ -538,7 +563,8 @@ ORGANIGRAMA
       width: 100%;
       text-align: center;
       font-weight: bolder;
-      color: white;
+	  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji";
+      color: #1a2a5e;
       font-size: 20px;
       margin-bottom: 10px;
     }
@@ -587,9 +613,11 @@ MAPA
 .mapa{
 	position:relative;
 }
-
+.mapa p{
+	font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji";
+	color: #0C1423;
+}
 .mapa .info{
-	color: #8B7556;
 	position:absolute;
 	width:400px;
 	right:10%; 
@@ -599,7 +627,7 @@ MAPA
 }
 
 .mapa .info h3{
-
+color: #0C1423;
 	font-weight: bold;
 }
 /*=============================================
