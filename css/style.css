@@ -293,6 +293,7 @@ SERVICIOS
 .service-grid ul li{
 	list-style:inside;
 	cursor: pointer;
+
 }
 .service-grid ul li strong{
 	font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji";
@@ -323,8 +324,11 @@ SERVICIOS
 	margin:0; 
 	font-size: 20px; 
 }
+.service .title{
+	color: #1E5799;
+}
 .service ul { 
-	margin: 10px 0 0 18px; 
+	padding-left: 0;
 	color:#cbd5e1; 
 }
 #servicios .cta{
