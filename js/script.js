@@ -123,6 +123,71 @@ $.scrollUp({
 	easingType: "easeOutQuint"
 })
 /*=============================================
+PRELOAD
+=============================================*/
+
+$("body").css({"overflow-y":"hidden"});
+
+var cargarImg = $("img");
+var cargarScript = $("script");
+var cargarCSS = $("link");
+var cargarVideos = $("video");
+var cargarAudios = $("audio");
+var totalObjetos = [];
+var numItem = 0;
+var valorPorcentaje = 0;
+var incremento = 0;
+var numCarga = 0;
+
+totalObjetos.push(cargarImg, cargarScript, cargarCSS, cargarVideos, cargarAudios);
+
+totalObjetos.forEach(funcionForEach);
+
+function funcionForEach(item, index){
+	
+	for(var i = 0; i < item.length; i++){
+
+		numItem++;
+
+		valorPorcentaje = 100/numItem;
+
+	}
+
+	for(var i = 0; i < item.length; i++){
+
+		preload(i, item);	
+		
+	}
+
+}
+
+function preload(i, item){
+
+	setTimeout(function(){
+
+		$(item[i]).ready(function(){
+
+				numCarga++
+
+				incremento = Math.floor(numCarga * valorPorcentaje);
+				
+				$("#porcentajeCarga").html(incremento+"%");
+
+				$("#rellenoCarga").css({"width":incremento+"%"})
+
+				if(incremento >= 100){
+
+					$("#preload").delay(350).fadeOut("slow");
+					$("body").delay(350).css({"overflow-y":"scroll"})
+				}
+
+			})
+
+	},i*100)
+
+}
+
+/*=============================================
 GRID GALERIA
 =============================================*/
 
