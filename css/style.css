@@ -356,16 +356,18 @@ content: "✓ ";
 galeria carucel
 ======================================-*/
 .carousel-inner{
-	/* height: 615px; */
+ 
+	width: 100%;
 }
 .corousel-inner .carousel-item{
 	width: 100%;
 }
 .carousel-inner img{
+	height: 90vh;
 	width: 100vw;
-	object-fit: fill;
-	background-repeat: no-repeat;
-	background-size: contain;
+	background-position: center;
+	 background-size: contain;
+	 object-fit: fill;
 }
 /*=============================================
 GRID GALERIA
@@ -602,6 +604,7 @@ MAPA
 .mapa p{
 	font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji";
 	color: #0C1423;
+	font-size: 18px;
 }
 .mapa .info{
 	position:absolute;
@@ -1093,7 +1096,9 @@ MOVIL VERTICAL (revisamos en 320px)
 		background: linear-gradient(to bottom, rgba(167,207,223,1) 0%,rgba(35,83,138,1) 100%);
 		height:350px;
 	}
-
+	.mapa p{
+		font-size: 15px;
+	}
 	footer {
 		position: fixed;
 		bottom:0px;
