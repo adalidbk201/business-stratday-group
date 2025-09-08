@@ -295,6 +295,9 @@ SERVICIOS
 	cursor: pointer;
 
 }
+.service-grid ul li::marker{
+content: "✓ ";
+}
 .service-grid ul li strong{
 	font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji";
 }
@@ -348,6 +351,22 @@ SERVICIOS
 	color:#cbd5e1; font-size:13px; 
 	background: rgba(2,8,23,.35);
 }
+ 
+/*--=====================================
+galeria carucel
+======================================-*/
+.carousel-inner{
+	height: 615px;
+}
+.corousel-inner .carousel-item{
+	width: 100%;
+}
+.carousel-inner img{
+	width: 100vw;
+	/* object-fit: fill; */
+	background-repeat: no-repeat;
+	background-size: contain;
+}
 /*=============================================
 GRID GALERIA
 =============================================*/
@@ -362,10 +381,10 @@ GRID GALERIA
 }
 .grid figure{
 	position:relative;
-	border-top:0px;
-	border-bottom:0px;
-	border-left:8px solid linear-gradient(to bottom, rgba(30,87,153,0) 0%,rgba(30,87,153,0.8) 15%,rgba(30,87,153,1) 19%,rgba(30,87,153,1) 20%,rgba(41,137,216,1) 50%,rgba(30,87,153,1) 80%,rgba(30,87,153,1) 81%,rgba(30,87,153,0.8) 85%,rgba(30,87,153,0) 100%);;
-	border-right:8px solid linear-gradient(to bottom, rgba(30,87,153,0) 0%,rgba(30,87,153,0.8) 15%,rgba(30,87,153,1) 19%,rgba(30,87,153,1) 20%,rgba(41,137,216,1) 50%,rgba(30,87,153,1) 80%,rgba(30,87,153,1) 81%,rgba(30,87,153,0.8) 85%,rgba(30,87,153,0) 100%);;
+	border-top: 4px solid #2780CD;
+	border-bottom: 4px solid #2780CD;
+	border-left: 4px solid #2780CD;
+	border-right: 4px solid #2780CD;
 	cursor:pointer;
 	transition:1s all;
 }

@@ -18,6 +18,11 @@ ANIMACIONES SCROLL HEADER
 // 	}
 
 // })
+ 
+
+// var alturaBanner = $(".fade-slider").height();
+
+// $(".bannerEstatico").css({"height":alturaBanner+"px"})
 /*=============================================
 MENÚ MÓVIL
 =============================================*/
