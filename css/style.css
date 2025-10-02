@@ -48,6 +48,13 @@ header{
 	left:0;
 	background:#0C1423;
 }
+
+header .img-logo{
+	width: 150px;
+	height: 45px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
 .botonera li{
 	cursor:pointer;
 }
@@ -100,6 +107,34 @@ header .redes{
  /*=============================================
 DISEÑO HERO - CINEMAGRAPH
 =============================================*/
+.vistaVideo .container img{
+	 
+	width: 110px;
+}
+.vistaVideo .container .title{
+	font-size: clamp(28px, 5vw, 48px); 
+	line-height: 1.15; 
+	margin: 0 0 12px; 
+	font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji";
+	color: white;
+	text-shadow: 2px 2px 4px rgba(0,0,0,.45);
+}
+.vistaVideo .container .subtitle {
+	font-size: clamp(15px, 5vw, 35px); 
+	line-height: 1.15; 
+	margin: 0 0 12px; 
+	font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji";
+	color: yellow;
+	text-shadow: 2px 2px 4px rgba(0,0,0,.45);
+}
+.vistaVideo .container .subtitle2 {
+	font-size: clamp(10px, 5vw, 30px); 
+	line-height: 1.15; 
+	margin: 0 0 12px; 
+	font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji";
+	color: white;
+	text-shadow: 2px 2px 4px rgba(0,0,0,.45);
+}
 .vistaVideo{
 	position:relative;
 	width:100%;
@@ -107,7 +142,7 @@ DISEÑO HERO - CINEMAGRAPH
 	overflow:hidden;
 }
 
-/* .filtroVideo{
+.filtroVideo{
 	position:absolute;
 	width:100%;
 	height:inherit;
@@ -115,16 +150,13 @@ DISEÑO HERO - CINEMAGRAPH
 	left:0;
 	background: url(../img/filtro.png);
 	background-repeat: repeat;
-} */
+}
 
 .vistaVideo .container{
 	transform:translate(0, -120%);
 }
 
-.vistaVideo .container h1{
-	font-size:50px !important;
-	font-family: 'Grand Hotel', cursive;
-}
+ 
 
 .vistaVideo .container .row div{
 	position: relative;
@@ -140,6 +172,7 @@ DISEÑO HERO - CINEMAGRAPH
 	text-align: center;
 	font-size:40px;
 }
+
 /*=============================================
 INICIO
 =============================================*/
@@ -732,8 +765,10 @@ TABLET HORIZONTAL (LG revisamos en 1024px)
 	.vistaVideo{
 		height:70vh;
 	}
-
-	/* .vistaVideo .container{
+	.vistaVideo .container img{
+		display: none;
+	}
+	.vistaVideo .container{
 		transform:translate(0,-95%);
 	}
 
@@ -746,7 +781,7 @@ TABLET HORIZONTAL (LG revisamos en 1024px)
 		left:0;
 		background: url(../img/filtro.png);
 		background-repeat: repeat;
-	} */
+	}
 
 }
 /*=============================================
@@ -1010,21 +1045,33 @@ MOVIL VERTICAL (revisamos en 320px)
 		font-size:20px;
 
 	}
-
-	 .vistaVideo{
+ 
+	 /* .vistaVideo{
 		height:200px;
+	} */
+	.vistaVideo .container img{
+		display :none;
 	}
-	
-	/* .vistaVideo .container{
-		transform:translate(0, 8%);
+	.vistaVideo .container i{
+		display: none;
+	}
+	.vistaVideo .container h3{
+		display: none;
+	}
+	.vistaVideo{
+		height:750px;
 	}
 
-	.vistaVideo .container h1{
-		font-size:25px !important;
+	.vistaVideo .container{
+		transform:translate(0, 9%);
+	}
+
+	.vistaVideo .container .subtitle{
+		margin-bottom: 0;
 	}
 
 	.filtroVideo{
-		background: url(../img/fondo_movil.png);
+		background: #00154F;
 		background-size:cover;
 	}
 
@@ -1036,7 +1083,7 @@ MOVIL VERTICAL (revisamos en 320px)
 		height:100%;
 		background:rgba(0,0,0,.5);
 		content: "";
-	} */
+	}
 	/* SERVICIOS */
 	.service-grid { 
 		display:grid; 
