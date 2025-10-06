@@ -385,23 +385,7 @@ content: "✓ ";
 	background: rgba(2,8,23,.35);
 }
  
-/*--=====================================
-galeria carucel
-======================================-*/
-.carousel-inner{
- 
-	width: 100%;
-}
-.corousel-inner .carousel-item{
-	width: 100%;
-}
-.carousel-inner img{
-	height: 90vh;
-	width: 100vw;
-	background-position: center;
-	 background-size: contain;
-	 object-fit: fill;
-}
+
 /*=============================================
 GRID GALERIA
 =============================================*/
@@ -430,42 +414,42 @@ GRID GALERIA
 
 .grid .photo1{
 	height:400px;
-	background:url(../img/imagen1.jpeg);
+	background:url(../img/galeria1.jpeg);
 	background-size:cover;
 	background-position:left;
 }
 
 .grid .photo2{
 	height:300px;
-	background:url(../img/imagen2.jpeg);
+	background:url(../img/galeria2.jpeg);
 	background-size:cover;
 	background-position:left;
 }
 
 .grid .photo3{
 	height:300px;
-	background:url(../img/imagen3.jpeg);
+	background:url(../img/galeria3.jpeg);
 	background-size:cover;
 	background-position:left;
 }
 
 .grid .photo4{
 	height:300px;
-	background:url(../img/imagen4.jpeg);
+	background:url(../img/galeria4.jpeg);
 	background-size:cover;
 	background-position:left;
 }
 
 .grid .photo5{
 	height:400px;
-	background:url(../img/imagen5.jpeg);
+	background:url(../img/galeria5.jpeg);
 	background-size:cover;
 	background-position:left;
 }
 
 .grid .photo6{
 	height:200px;
-	background:url(../img/imagen6.jpeg);
+	background:url(../img/galeria6.jpeg);
 	background-size:cover;
 	background-position:left;
 }
@@ -1057,6 +1041,9 @@ MOVIL VERTICAL (revisamos en 320px)
 		/* background: white; */
 		padding: 0;
 		border-radius: 5px;
+	}
+	.vistaVideo .container .movilsubtitle{
+		display: none;
 	}
 	.vistaVideo .container i{
 		display: none;
